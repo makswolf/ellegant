@@ -1,0 +1,11 @@
+.btn-wrap__btn img {
+ -moz-transition: all 1s ease-out;
+ -o-transition: all 1s ease-out;
+ -webkit-transition: all 1s ease-out;
+ }
+ 
+.btn-wrap__btn img:hover{
+ -webkit-transform: scale(1.3);
+ -moz-transform: scale(1.3);
+ -o-transform: scale(1.3);
+ }

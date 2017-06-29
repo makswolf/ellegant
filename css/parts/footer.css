@@ -1,0 +1,105 @@
+* {
+    box-sizing: border-box;
+}
+.footer {
+    background-image: url(../../img/footer.png);
+}
+.title {
+    color: #ffffff;
+    font-family: Raleway;
+    font-size: 35px;
+    font-weight: 700;
+    line-height: 60px;
+    text-transform: uppercase;
+    padding-top: 100px;
+    text-align: center;
+    padding-bottom: 64px;
+}
+.line {
+    width: 86px;
+    height: 2px;
+    background-color: #ffffff;
+}
+.social {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 45px;
+    list-style-type: none;
+}
+.social__item {
+    margin-right: 30px;
+    margin-bottom: 60px;
+}
+
+/*form*/
+
+.form {
+    text-align: center;
+}
+.styletext {
+    width: 302px;
+    height: 49px;
+    padding: 25px;
+    border-bottom-style: solid;
+    background: transparent;
+    border-left-style: none;
+    border-right-style: none;
+    border-top-style: none;
+    border-bottom-style: solid;
+    border-bottom-width: 2px;
+    border-bottom-color: #afafaf;
+    margin-bottom: 90px;
+}
+.styletext:first-child {
+    margin-right: 63px;
+}
+.styletext .placeholder {
+    color: #676767;
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 400;
+    font-style: italic;
+    line-height: 40px;
+}
+.formtwo {
+    text-align: center;
+}
+.area {
+    width: 669px;
+    height: 49px;
+    padding: 25px;
+    border-bottom-style: solid;
+    background: transparent;
+    border-left-style: none;
+    border-right-style: none;
+    border-top-style: none;
+    border-bottom-style: solid;
+    border-bottom-width: 2px;
+    border-bottom-color: #afafaf;
+    margin-bottom: 40px;
+}
+.batn {
+    text-align: center;
+    padding-bottom: 112px;
+    
+    
+}
+.batn__button {
+    width: 183px;
+    height: 60px;
+    color: #ffffff;
+    font-family: Lato;
+    font-size: 24px;
+    font-weight: 400;
+  cursor: pointer;
+    text-transform: uppercase;
+    background: transparent;
+    border: 3px solid #ffffff;
+}
+.batn__button:hover {
+     border: 3px solid lawngreen;
+    color: lawngreen;
+    transition: all 0.5s ease;
+}

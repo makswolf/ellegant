@@ -1,0 +1,125 @@
+
+.tabs__title {
+        margin-top: 116px;
+        margin-bottom: 76px;
+        text-align: center;
+        color: #222222;
+        font-family: Raleway;
+        font-size: 35px;
+        font-weight: 700;
+        line-height: 60px;
+        text-transform: uppercase;
+    }
+    .tabs__line {
+        width: 86px;
+        height: 2px;
+        background-color: #222222;
+        margin-bottom: 80px;
+    }
+  
+    .tabs-container {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 79px;
+    }
+    .tabs-container .image {
+        width: 370px;
+        height: 420px;
+        background-image: url(../../img/layer-17.png);
+        cursor: pointer;
+    }
+    .tabs-container .planet {
+        display: none;
+    }
+    .tabs-container .image:hover .planet {
+        display: block;
+        width: 370px;
+        height: 420px;
+        background-color: #000000;
+        opacity: 0.75;
+        padding-top: 100px;
+        text-align: center;
+        color: #ffffff;
+        font-family: Lato;
+        font-size: 22px;
+        font-weight: 400;
+        line-height: 60px;
+        text-transform: uppercase;
+    }
+    .tabs-container .imagetwo {
+        width: 370px;
+        height: 420px;
+        background-image: url(../../img/layer-16.png);
+        cursor: pointer;
+    }
+    .tabs-container .jetindus {
+        display: none;
+    }
+    .tabs-container .imagetwo:hover .jetindus {
+        display: block;
+        width: 370px;
+        height: 420px;
+        background-color: #000000;
+        opacity: 0.75;
+        transition: all 0.5s ease;
+        padding-top: 100px;
+        text-align: center;
+        color: #ffffff;
+        font-family: Lato;
+        font-size: 22px;
+        font-weight: 400;
+        line-height: 60px;
+        text-transform: uppercase;
+    }
+    .tabs-container .imagethree {
+        width: 370px;
+        height: 420px;
+        background-image: url(../../img/layer-21.png);
+        cursor: pointer;
+    }
+    .tabs-container .trimlement {
+        display: none;
+    }
+    .tabs-container .imagethree:hover .trimlement {
+        display: block;
+        width: 370px;
+        height: 420px;
+        background-color: #000000;
+        opacity: 0.75;
+        transition: all 0.5s ease;
+        padding-top: 100px;
+        text-align: center;
+        color: #ffffff;
+        font-family: Lato;
+        font-size: 22px;
+        font-weight: 400;
+        line-height: 60px;
+        text-transform: uppercase;
+    }
+    /*button*/
+    
+    .btn {
+        text-align: center;
+        padding-bottom: 79px;
+       
+    }
+    .btn__more {
+        font-size: 20px;
+        background-color: #ffffff;
+        width: 370px;
+        cursor: pointer;
+        color: #222222;
+        font-family: Lato;
+        font-size: 24px;
+        font-weight: 400;
+        line-height: 60px;
+        text-transform: uppercase;
+        border: 3px solid #222222;
+    }
+    .btn__more:hover {
+        border: 3px solid green;
+        transition: all 0.5s ease;
+    }
+

@@ -1,0 +1,43 @@
+* {
+	box-sizing: border-box;
+}
+/*Lato font-family*/
+@import url('https://fonts.googleapis.com/css?family=Lato:400,700');
+
+body {
+	margin: 0;
+	font-family: 'Lato', sans-serif;
+}
+
+.clearfix {
+	clear: both;
+}
+
+.clear:after {
+	content: '';
+	display: table;
+	clear: both;
+}
+
+.container {
+	width: 100%;
+	max-width: 1170px;
+	margin: 0 auto;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+.container:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.container--700-width {
+	max-width: 700px;
+}
+
+.title {
+	font-size: 30px;
+	font-weight: 700;
+	margin-top: 0;
+}
